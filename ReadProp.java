@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Class ReadProp contains method readProp() that reads file
+ * in Java Properties format and returns data
+ * as a collection Map<"name", "value">
+ * It skips empty strings and commented by "#" symbol.
  */
 
 package readfile;
@@ -16,7 +17,7 @@ import java.util.regex.Pattern;
 
 /**
  *
- * @author KVasin
+ * @author azEsm
  */
 public class ReadProp {
     
